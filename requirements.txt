@@ -1,0 +1,12 @@
+python-telegram-bot==20.6
+yfinance
+requests
+schedule
+numpy
+pandas
+scikit-learn
+aiohttp
+nest_asyncio
+openai
+fpdf2
+xgboost

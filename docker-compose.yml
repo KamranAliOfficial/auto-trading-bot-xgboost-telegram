@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  trading-system:
+    build: .
+    container_name: enhanced-trading-system
+    restart: unless-stopped
+    environment:
+      - ENVIRONMENT=production
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./reports:/app/reports
+      - ./config:/app/config
+    networks:
+      - trading-network
+
+volumes:
+  redis-data:
+  postgres-data:
+
+networks:
+  trading-network:
+    driver: bridge

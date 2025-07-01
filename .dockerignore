@@ -1,0 +1,41 @@
+# Development files
+.git
+.gitignore
+README.md
+.env.template
+
+# Python cache
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual environment
+trading_env/
+venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+test_*.py
+
+# Logs (will be mounted as volume)
+logs/*
+!logs/.gitkeep
+
+# Data (will be mounted as volume)
+data/*
+!data/.gitkeep
