@@ -37,9 +37,9 @@ from modules.price_tracker import check_targets, clean_old_trades
 
 nest_asyncio.apply()
 
-NEWS_API_KEY = "BpXXFMPQ3JdCinpg81kfn4ohvmnhGZOwEmHjLIre"
+NEWS_API_KEY = "Enter your News API Key"
 POSITIVE_NEWS_FILE = "data/positive_watchlist.json"
-BOT_TOKEN = "7994128773:AAEnoWDCi33KxYGaEaLKjm3zGq8SSI7fwN8"
+BOT_TOKEN = "ENTER YOUR TG BOT TOKEN"
 
 os.makedirs("logs", exist_ok=True)
 
